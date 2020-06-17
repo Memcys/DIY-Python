@@ -30,6 +30,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 # ## 数据列 [Series](https://pandas.pydata.org/docs/reference/api/pandas.Series.html#pandas.Series)
 
@@ -83,7 +84,9 @@ df2.loc[1, 'E']
 df2.to_csv('AF.csv')
 df2.to_excel('AF.xlsx')
 
-ll AF.*
+# 查看当前文件夹下名称以 'AF.' 开头的文件
+
+sorted(Path().rglob('AF.*'))
 
 # ## 导入
 

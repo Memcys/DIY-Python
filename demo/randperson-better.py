@@ -36,34 +36,11 @@ def f(l: list):
         n = randint(sz)
         print(f'{n=}; {l[n]=}')
         l.pop(n)
+        print(f'{l=}')
     else:
         # or print if you prefer
         logging.info('omitting blank list')
 
 
-f(l)
-l
-
-f(l)
-l
-
-f(l)
-l
-
-f(l)
-l
-
-f(l)
-l
-
-f(l)
-l
-
-f(l)
-l
-
-f(l)
-l
-
-f(l)
-l
+for i in range(len(l) + 1):
+    f(l)
