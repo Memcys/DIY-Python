@@ -10,4 +10,5 @@ image
 
 pyvenv.cfg
 
-**.ipynb
+**.csv
+**.xlsx
