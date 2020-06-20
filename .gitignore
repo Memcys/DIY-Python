@@ -1,13 +1,18 @@
+# directories
 bin
+dist
 etc
 include
 lib
 lib64
 share
 image
-
+__pycache__
 .vscode
+.ipynb*
+*.egg-info
 
+# files
 pyvenv.cfg
 
 **.csv

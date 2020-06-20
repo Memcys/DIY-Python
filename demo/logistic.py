@@ -28,7 +28,8 @@ logging.getLogger().setLevel(logging.INFO)
 
 plt.style.available
 
-plt.rcParams['text.usetex'] = True
+# You may not have a tex distrution installed
+# plt.rcParams['text.usetex'] = True
 # plt.style.use('default')
 plt.style.use(['seaborn-darkgrid', 'seaborn-notebook'])
 
