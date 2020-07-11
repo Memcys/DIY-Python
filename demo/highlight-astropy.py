@@ -7,7 +7,7 @@
 #       extension: .py
 #       format_name: light
 #       format_version: '1.5'
-#       jupytext_version: 1.5.0
+#       jupytext_version: 1.5.1
 #   kernelspec:
 #     display_name: Python 3.8.3 64-bit
 #     language: python
@@ -92,7 +92,7 @@ a.pdf_std()
 
 from astropy.table import Table
 
-t = Table.read('AF.csv')
+t = Table.read('../data/AF.csv')
 t
 
 t[0]

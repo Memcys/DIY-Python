@@ -7,7 +7,7 @@
 #       extension: .py
 #       format_name: light
 #       format_version: '1.5'
-#       jupytext_version: 1.5.0
+#       jupytext_version: 1.5.1
 #   kernelspec:
 #     display_name: Python 3
 #     language: python
@@ -81,16 +81,16 @@ df2.loc[1, 'E']
 
 # ## 导出
 
-df2.to_csv('AF.csv')
-df2.to_excel('AF.xlsx')
+df2.to_csv('../data/AF.csv')
+df2.to_excel('../data/AF.xlsx')
 
 # 查看当前文件夹下名称以 'AF.' 开头的文件
 
-sorted(Path().rglob('AF.*'))
+sorted(Path('../data/').rglob('AF.*'))
 
 # ## 导入
 
-df3 = pd.read_excel('AF.xlsx', sheet_name='Sheet1', index_col=0)
+df3 = pd.read_excel('../data/AF.xlsx', sheet_name='Sheet1', index_col=0)
 df3
 
 # ## 可视化
