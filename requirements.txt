@@ -1,3 +1,4 @@
+.
 astropy
 bayesian-optimization
 Cython
