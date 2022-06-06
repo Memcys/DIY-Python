@@ -5,6 +5,7 @@ Cython
 h5py
 imblearn
 ipython
+ipykernel
 Keras
 matplotlib
 numba

@@ -1,0 +1,15 @@
+**/__pycache__
+**/.venv
+**/.devcontainer
+**/.dockerignore
+**/.git*
+**/.hide
+**/.*ignore
+**/.vscode
+**/*.egg-info
+**/build
+**/docker-compose*
+**/compose*
+**/dist
+**/Dockerfile*
+README.md
